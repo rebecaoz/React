@@ -1,6 +1,19 @@
 .card{
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 170px;
     width: 250px;
+    
+}
+.data:first-child{
+    margin-top: 40px;
+}
+.data{
+    line-height: .5rem;
+  
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px;
 }
