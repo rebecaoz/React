@@ -8,10 +8,11 @@ const FetchButton = () =>{
     const obtenerPokemon = async () => {
         try {
           const response = await fetch(
-            `https://pokeapi.co/api/v2/pokemon`
+            `https://pokeapi.co/api/v2/pokemon?offset=20&limit=807`
           );
           const data = await response.json();
           setPokemons(data.results);
+          console.log(data);
         } catch (e) {
           setPokemons(undefined);
         }
