@@ -13,7 +13,7 @@ const Home = (props) => {
     }    
     return (
       <div>
-        <h1 style={{color: "red"}}>Bienvenido!</h1>
+        <h1>Bienvenido!</h1>
         <input type="text" name="route" onChange={(e)=>setText(e.target.value)}/>
         <button onClick={ir}>Ir</button>
       </div>

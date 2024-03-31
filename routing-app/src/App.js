@@ -18,9 +18,9 @@ function App(props) {
       <Link to="/home">Home</Link>
       <Routes>
         <Route exact path="/home" element={<Home />} />
-        <Route exact path="/:text" element={ <Text />}>
-          
-        </Route> 
+        <Route exact path="/:text" element={ <Text />}/>
+        <Route exact path="/:text/:texto" element={ <Text />}/> 
+        
       </Routes>
     </div>
   );
