@@ -1,0 +1,24 @@
+form{
+    display: flex;
+    align-items: center;
+}
+select{
+    font-size: large;
+}
+.idLabel, .searchLabel{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+input{
+    width: 5%;
+    font-size: large;
+}
+button{
+    font-size: large;
+    background-color:orange;
+    width: 10%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+
